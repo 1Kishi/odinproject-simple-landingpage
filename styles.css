@@ -2,6 +2,9 @@ body {
     font-family: 'Roboto', 'sans-serif';
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .heroBody,
@@ -102,7 +105,7 @@ button, button.heroBodyInfo{
 .bodyInformation{
     display: flex;
     justify-content: center;
-    gap: 36px;
+    gap: 56px;
 }
 
 .textInformation{
@@ -127,4 +130,41 @@ button, button.heroBodyInfo{
 .quoteThor{
     font-size: 20px;
     margin-left: 400px ;
+}
+
+.callToActionDiv{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 100px;
+    color: #F9FAF8;
+    gap:14px;
+
+}
+
+.callToActionBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.CalltoActionButt{
+    color: #F9FAF8;
+    border: #F9FAF8 solid 1px;
+    border-radius: 12px;
+}
+
+.footer p{
+    text-align: center;
+    color: #E5E7EB;
+}
+
+.footer{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100px;
 }
