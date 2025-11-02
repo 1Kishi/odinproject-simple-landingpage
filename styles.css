@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', 'sans-serif';
+    display: flex;
+    flex-direction: column;
+}
+
+.heroBody,
+.header,
+.footer{
+    background-color: #1F2937;
+
+}
+
+.heroLogo{
+font-size: 24px;
+color: #F9FAF8;
+}
+
+.heroMainText{
+font-size: 48px;
+color: #F9FAF8;
+font-weight:900;
+}
+
+.heroSecondaryText,.headerLinks{
+font-size: 18px;
+color: #E5E7EB;
+}
+
+button, button.heroBodyInfo{
+    background-color: #3882F6;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.heroBody{
+    padding: 0%;
+    margin: 0%;
+    border: 0px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    text-wrap: nowrap;
+    gap: 16px;
+
+}
+
+.heroBodyInfo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    padding: 0px 46px 0px 46px;
+    
+
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+
+}
+
+.img1{
+    height: 300px;
+    width: 400px;
+    padding: 16px;
+    margin: 32px;
+}
+
+
+.hero .heroMainText p,button{
+    margin: 0;
+    padding: 0;
+}
+
+.informationHeader,.quoteText{
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.informationHeader{
+        font-weight: 900;
+}
+
+.illustration{
+    border: #1F2937 solid 3px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.bodyInformation{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.textInformation{
+    width: 100px ;
+}
+
+.quoteSection{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quoteText{
+    font-weight: 300;
+    width: 600px;
+    text-align: left;
+
+}
+
+.quoteThor{
+    font-size: 20px;
+    margin-left: 400px ;
+}
